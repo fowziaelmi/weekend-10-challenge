@@ -151,36 +151,16 @@ $(document).ready(function () {
     })
       .then(function (response) {
         console.log('delete complete');
-        // Call getTodoList to update the DOM
+        // Call getTask to update the DOM
         getTask();
       })
-      // Handle error
+
       .catch(function (error) {
         console.log('delete error', error);
-      }); // end of ajax put delete request
-  } // delete button listener }
+      }); //
+  } //
 });
-/* function unCheck (taskId) {
-  console.log('in ', taskId);
-  // Set up PUT route
-  $.ajax({
-    method: 'PUT',
-    url: `/tasks/uncheck/${taskId}`,
-   
-    data: {
-      taskId,
-    },
-  })
-    
-    .then(function (response) {
-      console.log( 'success');
-    })
-    
-    .catch((error) => {
-      console.log('UNDO error', error);
-    });
-}
-*/
+
 /* function appendTasks(task) {
   for (let i = 0; i < task.length; i++) {
     let taskToDisplay = task[i];
