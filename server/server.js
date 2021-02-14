@@ -6,7 +6,7 @@ app.use(bodyParser.urlencoded({ extended: true }));
 app.use(bodyParser.json());
 // app.use( bodyParser.json() );
 app.use(express.static('server/public'));
-
+app.use('/tasks', taskRouter);
 // Start express
 const PORT = 5000;
 app.listen(PORT, () => {
