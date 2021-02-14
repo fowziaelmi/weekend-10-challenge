@@ -21,13 +21,13 @@ $(document).ready(function () {
     })
       .then(function (response) {
         console.log('response', response);
-        drawTaskTable(response);
+        $('#viewTasks').empty();
         for (let i = 0; i < response.length; i++) {
           $('#viewTasks').append(`
         <div 
           <input type="checkbox" name="checkbox" id="${
             response[i].id
-          }"data-id="${response[i].id}" 
+          }" data-id="${response[i].id}" 
           ${response[i].complete ? 'checked' : ''}>
           <label class="taskss" for=${response[i].id}>
           ${response[i].task_to_complete}</label>
