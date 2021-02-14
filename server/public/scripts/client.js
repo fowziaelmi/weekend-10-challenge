@@ -24,7 +24,7 @@ $(document).ready(function () {
         $('#viewTasks').empty();
         for (let i = 0; i < response.length; i++) {
           $('#viewTasks').append(`
-        <div 
+        <div>
           <input type="checkbox" name="checkbox" id="${
             response[i].id
           }" data-id="${response[i].id}" 
