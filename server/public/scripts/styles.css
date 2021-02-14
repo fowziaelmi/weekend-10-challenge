@@ -1,0 +1,17 @@
+header {
+  background-color: lightskyblue;
+}
+body {
+  background-color: lightsteelblue;
+}
+#delete {
+  margin-right: auto;
+  color: lightgray
+  align-content: right;
+}
+label {
+  
+}
+input[type='checkbox']:checked + label.taskss {
+  background-color: mediumspringgreen;
+}

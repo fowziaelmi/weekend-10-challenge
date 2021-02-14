@@ -1,9 +1,27 @@
 # To Do Application
 
-[Project Instructions](./INSTRUCTIONS.md), this line may be removed once you have updated the README.md
-
 ## Description
 
-Your project description goes here. What problem did you solve? How did you solve it?
+This application allows a user to create a to-do list. When the user completes a task, they can check it off the list. The user can also delete tasks.
 
-Additional README details can be found [here](https://github.com/PrimeAcademy/readme-template/blob/master/README.md).
+## Built With
+
+- JavaScript
+- jQuery
+- HTML/CSS
+- SQL
+
+## Usage
+
+- Application allows user to input to-do tasks.
+- The application will then save and display the task.
+- User can check off the task once they've completed it.
+- User also has the option to delete tasks.
+
+## Acknowledgments
+
+Thanks to Prime Digital Academy who equipped and helped me to make this application a reality.
+
+## Support
+
+If you have suggestions or issues, please email me at fowziiae@gmail.com
