@@ -10,8 +10,7 @@ body {
   margin-right: auto;
   text-align: right;
 }
-label {
-}
+
 input[type='checkbox']:checked + label.taskss {
   background-color: mediumspringgreen;
   text-decoration: line-through;
